@@ -9,7 +9,7 @@ const SearchFilter = () => {
 			<style jsx>
 				{`
 					.search-filter-container {
-						height: 100vh;
+						height: calc(100vh - 16rem);
 						background-image: url("/images/bg-1.jpg");
 						width: 100%;
 						background-size: cover;
@@ -31,6 +31,7 @@ const SearchFilter = () => {
 					@media screen and (max-width: 599px) {
 						.search-filter-container {
 							margin-top: 4.8rem;
+							height: calc(100vh - 4.8rem);
 						}
 					}
 				`}
