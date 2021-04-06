@@ -1,16 +1,57 @@
+@font-face {
+	font-family: "lecoxer";
+	font-weight: 100;
+	src: url("../fonts/SF-Pro-Text-Light.otf");
+}
+
+@font-face {
+	font-family: "lecoxer";
+	font-weight: 400;
+	src: url("../fonts/SF-Pro-Text-Regular.otf");
+}
+
+@font-face {
+	font-family: "lecoxer";
+	font-weight: 500;
+	src: url("../fonts/SF-Pro-Text-Medium.otf");
+}
+
+@font-face {
+	font-family: "lecoxer";
+	font-weight: 600;
+	src: url("../fonts/SF-Pro-Text-Semibold.otf");
+}
+
+@font-face {
+	font-family: "lecoxer";
+	font-weight: 700;
+	src: url("../fonts/SF-Pro-Text-Bold.otf");
+}
+
+@font-face {
+	font-family: "lecoxer";
+	font-weight: 800;
+	src: url("../fonts/SF-Pro-Text-Heavy.otf");
+}
+
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+	font-family: "lecoxer", sans-serif;
 }
 
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+/* 
 a {
-  color: inherit;
-  text-decoration: none;
-}
+	color: inherit;
+	text-decoration: none;
+} */
 
-* {
-  box-sizing: border-box;
-}
+/* -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+		Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,  */
