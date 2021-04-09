@@ -35,7 +35,7 @@ const Topbar = () => {
 						.top-bar {
 							display: block;
 							background-color: #000;
-							height: 7rem;
+							height: 8rem;
 							width: 100vw;
 						}
 
@@ -65,7 +65,7 @@ const Topbar = () => {
 						}
 
 						.top-bar img {
-							max-height: 7rem;
+							max-height: 8rem;
 						}
 
 						.top-bar .grow {
@@ -75,7 +75,7 @@ const Topbar = () => {
 						.top-bar .sign-up {
 							border: 2px solid #fff;
 							padding: 1rem;
-							margin: 0 1rem;
+							margin: 0 1rem 0 0;
 							border-radius: 1rem;
 							background-color: #fff;
 							color: #000;
@@ -90,7 +90,7 @@ const Topbar = () => {
 						.top-bar .sign-in {
 							border: 2px solid #ffffff4d;
 							padding: 1rem;
-							margin: 0 1rem;
+							margin: 0 0 0 1rem;
 							border-radius: 1rem;
 							color: #ffffff4d;
 							transition: border 0.5s ease-out, color 0.8s ease-in-out;

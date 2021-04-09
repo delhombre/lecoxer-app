@@ -47,6 +47,16 @@ const Navbar = () => {
 							</li>
 							<li className="nav-item">
 								<a href="#" className="nav-link">
+									Services à domicile
+								</a>
+							</li>
+							<li className="nav-item">
+								<a href="#" className="nav-link">
+									Annuaire
+								</a>
+							</li>
+							<li className="nav-item">
+								<a href="#" className="nav-link">
 									Blog
 								</a>
 							</li>
@@ -72,7 +82,7 @@ const Navbar = () => {
 					header {
 						positon: sticky;
 						z-index: 1400;
-						height: 9rem;
+						height: 4rem;
 						background-color: rgba(255, 255, 255, 0.4);
 						backdrop-filter: saturate(180%) blur(2rem);
 						-webkit-backdrop-filter: saturate(180%) blur(2rem);
@@ -103,23 +113,23 @@ const Navbar = () => {
 					}
 
 					.nav-list-larger {
-						height: 9rem;
+						height: 4rem;
 					}
 
 					.nav-link {
-						font-size: 2rem;
+						font-size: 1.4rem;
 						color: #000;
 						padding: 0 1rem;
-						transition: opacity 0.5s;
-						letter-spacing: -0.01em;
+						transition: color 0.5s;
+						font-weight: 500;
 					}
 
 					.nav-link:hover {
-						opacity: 0.7;
+						color: #66bbff;
 					}
 
 					.nav-link-logo > img {
-						height: 9rem;
+						height: 4rem;
 					}
 
 					@media screen and (max-width: 599px) {

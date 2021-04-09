@@ -2,6 +2,11 @@ import { createMuiTheme, MuiThemeProvider } from "@material-ui/core/styles";
 import React from "react";
 
 const theme = createMuiTheme({
+	palette: {
+		primary: {
+			main: "#000",
+		},
+	},
 	typography: {
 		fontFamily: ['"lecoxer"', "sans-serif"].join(","),
 	},
@@ -9,7 +14,7 @@ const theme = createMuiTheme({
 		MuiCssBaseline: {
 			"@global": {
 				html: {
-					fontSize: "8px",
+					fontSize: "10px",
 				},
 				body: {
 					backgroundColor: "#fff",
